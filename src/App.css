@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +34,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.heading {
+  text-align: center;
+}
+
+.card {
+  padding: 20px 20px 5px 20px;
+  margin: 20px;
+}
+
+.verticalLine {
+  border-right: 1px dotted indigo;
+}
+.profilePic {
+  border-radius: 30%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid lightblue;
+  display: block;
+  margin: auto;
+}
+
+.alignCenter {
+  text-align: center;
+}
+.links {
+  margin: 100px;
+}
+.links a {
+  margin: 10px;
+}
+.hireable {
+  width: 100%;
+  bottom: 10px;
+  display: block;
+}
+
+.gitInfo {
+  margin-right: 80px;
 }
