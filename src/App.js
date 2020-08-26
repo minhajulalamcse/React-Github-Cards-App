@@ -12,7 +12,7 @@ class App extends Component {
     axios
       .get("https://api.github.com/users/" + username)
       .then((res) => {
-        const profiles = [...this.state.profiles, res.data];
+        const profiles = [res.data, ...this.state.profiles];
         this.setState({
           profiles,
         });
